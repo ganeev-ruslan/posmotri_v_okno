@@ -1,2 +1,2 @@
-https://github.com/ganeev-ruslan/POSMOTRI_V_OKNO.git
+https://github.com/ganeev-ruslan/posmotri_v_okno.git
 
