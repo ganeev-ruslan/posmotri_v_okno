@@ -51,7 +51,6 @@ ol {
   height: 298px;
   overflow: auto;
   scroll-behavior: smooth;
-  padding: 3px;
 }
 
 .content__details {
@@ -92,8 +91,8 @@ ol {
 
 .content__video-card-thumbnail {
   flex-shrink: 0;
-  width: 199px;
-  height: 105px;
+  width: 194px;
+  height: 103px;
   object-fit: cover;
   object-position: center;
 }
@@ -144,6 +143,10 @@ ol {
   line-height: normal;
 }
 
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
+}
+
 .search-form__textfield {
   min-width: 225px;
   color: #fff;
@@ -156,7 +159,7 @@ ol {
   border-right: 0px;
   border-bottom: 1px solid rgb(255, 255, 255);
   border-left: 0px;
-  padding: 2.5px 14px 2.5px 0px;
+  padding: 2.5px 0px 2.5px 0px;
   background: transparent;
 }
 
@@ -232,10 +235,6 @@ ol {
   background: #545050;
 }
 
-.search-form__label-text:hover {
-  text-decoration: underline;
-}
-
 .title {
   color: #fff;
   font-family: "Oswald", sans-serif;
@@ -261,6 +260,8 @@ ol {
   display: block;
   color: #fff;
   text-decoration: none;
+  margin: 2px 2px 2px 2px;
+  /* Чтобы обводка в состоянии :focus-visible была видна целиком, задал небольшой margin элементу .content__card-link */
 }
 
 .content__card-link:hover {
